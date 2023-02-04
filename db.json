@@ -1,0 +1,66 @@
+{
+  "vehicleType": [
+    "economy",
+    "estate",
+    "luxury",
+    "SUV",
+    "cargo"
+  ],
+  "fuelType": [
+    "petrol",
+    "diesel",
+    "hybrid",
+    "electric"
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "brand": "Honda",
+      "model": "Civic",
+      "year": "2005",
+      "seats": 5,
+      "price": 800,
+      "inventory": 8,
+      "pic": "/images/Honda-ep2.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "mitsubishi",
+      "model": "evo",
+      "year": "2002",
+      "seats": 5,
+      "price": 3000,
+      "inventory": 4,
+      "pic": "/images/mitsubishi-evo.jpg"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Anton Georgiev",
+      "email": "stu1901261076@uni-plovdiv.bg",
+      "phone": "0878332314"
+    },
+    {
+      "id": 2,
+      "name": "Joro Cholakov",
+      "email": "joro@uni-plovdiv.bg",
+      "phone": "0878332425"
+    },
+    {
+      "id": 3,
+      "name": "Ivan Latkatae",
+      "email": "batVankata01261076@uni-plovdiv.bg",
+      "phone": "0878332377"
+    }
+  ],
+  "rentalEvent": [
+    {
+      "id": 1,
+      "startDateTime": "2022-11-25T12:00:00.000Z",
+      "endDateAndTime": "2022-11-28T12:00:00.000Z",
+      "vehicleId": 1,
+      "customerId": 1
+    }
+  ]
+}
